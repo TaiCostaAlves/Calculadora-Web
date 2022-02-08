@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: #2ab3ac;
+    background-image: url(ade.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .calculator {
@@ -17,7 +19,9 @@ body{
     transform: translate(-50%, -50%);
     border-radius: 15px;
     padding: 10px;
-    background-color: #000807;
+    background-color: rgba(255, 255, 255, 0.100);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
 }
 
 table td{
